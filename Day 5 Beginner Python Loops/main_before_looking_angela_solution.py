@@ -15,7 +15,7 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 password_not_random = ""
 
 for number_letters in range(nr_letters):
-  password_not_random += letters[random.randint(0,25)]
+  password_not_random += letters[random.randint(0,51)]
 for number_symbols in range(nr_symbols):
   password_not_random += symbols[random.randint(0,8)]
 for number_numbers in range(nr_numbers):
