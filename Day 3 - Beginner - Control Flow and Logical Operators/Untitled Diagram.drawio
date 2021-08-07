@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-07T15:16:24.200Z" agent="5.0 (X11)" etag="jV9mXdEF4pWnMgvWN6dG" version="14.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-07T16:19:20.900Z" agent="5.0 (X11)" etag="EQ7d1sEK9Kru0gli5jpa" version="14.9.5" type="github">
   <diagram id="AeVOvASz3Q_P1Ez1NodS" name="Page-1">
     <mxGraphModel dx="1673" dy="853" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -80,6 +80,9 @@
         </mxCell>
         <mxCell id="osTo5hEZF6THwpM-EXvK-17" value="Enemy attack - Check damage done and print it" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="345.5" y="660" width="163" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="osTo5hEZF6THwpM-EXvK-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="osTo5hEZF6THwpM-EXvK-19" target="osTo5hEZF6THwpM-EXvK-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="osTo5hEZF6THwpM-EXvK-19" value="Advance to the next adventure step" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="569" width="115" height="60" as="geometry" />
