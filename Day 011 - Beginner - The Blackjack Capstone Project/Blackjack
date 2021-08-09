@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-09T19:05:35.100Z" agent="5.0 (X11)" etag="YpGlZn3KIMjz0DN48WVK" version="14.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-09T19:06:36.500Z" agent="5.0 (X11)" etag="HYWr-B_SpZZsvqSGLyl1" version="14.9.5" type="github">
   <diagram id="QMQ_uDp2ONu1_RBFL6F1" name="Page-1">
     <mxGraphModel dx="1185" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -175,19 +175,14 @@
         <mxCell id="FY5R8k2AvwLBuofMj_Go-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="915.29" y="360" width="650" height="226" as="geometry" />
         </mxCell>
-        <mxCell id="FY5R8k2AvwLBuofMj_Go-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="FY5R8k2AvwLBuofMj_Go-4" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1100.3333333333335" y="440.0178431372551" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="FY5R8k2AvwLBuofMj_Go-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FY5R8k2AvwLBuofMj_Go-4" target="FY5R8k2AvwLBuofMj_Go-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FY5R8k2AvwLBuofMj_Go-4" value="&lt;div&gt;For loop to check the sum of the cards&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="965.29" y="380" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FY5R8k2AvwLBuofMj_Go-5" value="Add user_card to user_cards_dictionary or list?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="965.29" y="540" width="270" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="FY5R8k2AvwLBuofMj_Go-9" value="Add 1 to user_cards_dictionary or list?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1265.29" y="540" width="270" height="30" as="geometry" />
+        <mxCell id="FY5R8k2AvwLBuofMj_Go-5" value="return the sum of cards" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="965.29" y="430" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FY5R8k2AvwLBuofMj_Go-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" target="FY5R8k2AvwLBuofMj_Go-4" parent="1">
           <mxGeometry relative="1" as="geometry">
