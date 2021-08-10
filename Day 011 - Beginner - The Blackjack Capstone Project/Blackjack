@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-10T06:48:34.233Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="IFOianlrZBZ9PHs90ase" version="14.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-10T06:49:26.664Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="31JKYeAYdOEjCFgiy8CZ" version="14.9.5" type="github">
   <diagram id="QMQ_uDp2ONu1_RBFL6F1" name="Page-1">
-    <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-2" value="Ask user:&amp;nbsp;&lt;br&gt;Do you want to play a game of Blackjack? Type &#39;y&#39; or &#39;n&#39;:&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="141" y="40" width="350" height="40" as="geometry" />
+          <mxGeometry x="111" y="20" width="350" height="40" as="geometry" />
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-6" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="86M-mFBg67_h8RozpL6a-3" target="86M-mFBg67_h8RozpL6a-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -20,34 +20,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-3" value="&lt;span&gt;&#39;y&#39; or &#39;n&#39;:&amp;nbsp;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="276" y="102" width="80" height="80" as="geometry" />
+          <mxGeometry x="246" y="82" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-5" value="End of program" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="401" y="112" width="120" height="60" as="geometry" />
+          <mxGeometry x="371" y="92" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="86M-mFBg67_h8RozpL6a-7" target="86M-mFBg67_h8RozpL6a-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-7" value="Print logo" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="141" y="205" width="350" height="40" as="geometry" />
+          <mxGeometry x="111" y="185" width="350" height="40" as="geometry" />
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="86M-mFBg67_h8RozpL6a-9" target="86M-mFBg67_h8RozpL6a-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-9" value="Generate Player 2 cards" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="141" y="265" width="350" height="40" as="geometry" />
+          <mxGeometry x="111" y="245" width="350" height="40" as="geometry" />
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="86M-mFBg67_h8RozpL6a-11" target="86M-mFBg67_h8RozpL6a-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-11" value="Generate computer 2 cards (2nd is hidden)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="141" y="325" width="350" height="40" as="geometry" />
+          <mxGeometry x="111" y="305" width="350" height="40" as="geometry" />
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="86M-mFBg67_h8RozpL6a-13" target="86M-mFBg67_h8RozpL6a-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-13" value="Ask user:&amp;nbsp;&lt;br&gt;Type &#39;y&#39; to get another card, type &#39;n&#39; to pass:" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="141" y="395" width="350" height="40" as="geometry" />
+          <mxGeometry x="111" y="375" width="350" height="40" as="geometry" />
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="86M-mFBg67_h8RozpL6a-15" target="86M-mFBg67_h8RozpL6a-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -84,18 +84,18 @@
         </mxCell>
         <mxCell id="D6tPK9A_-HZ4d4eV9TzB-2" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="86M-mFBg67_h8RozpL6a-52">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="536" y="670" as="targetPoint" />
+            <mxPoint x="506" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-52" value="Is sum of cards in user_cards &amp;gt; 21" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="231" y="589" width="170" height="80" as="geometry" />
+          <mxGeometry x="201" y="569" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-58" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="86M-mFBg67_h8RozpL6a-54" target="86M-mFBg67_h8RozpL6a-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="86M-mFBg67_h8RozpL6a-54" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="536" y="670" as="targetPoint" />
+            <mxPoint x="506" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-62" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="86M-mFBg67_h8RozpL6a-61" vertex="1" connectable="0">
@@ -104,13 +104,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-54" value="y or n" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="251" y="455" width="130" height="40" as="geometry" />
+          <mxGeometry x="221" y="435" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="86M-mFBg67_h8RozpL6a-57" target="86M-mFBg67_h8RozpL6a-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-57" value="Generate Player 1 cards" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="241" y="530" width="150" height="40" as="geometry" />
+          <mxGeometry x="211" y="510" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="86M-mFBg67_h8RozpL6a-63" target="86M-mFBg67_h8RozpL6a-66" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -121,13 +121,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-63" value="Computer sum of computer_cards &amp;lt; 17" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="471" y="643" width="130" height="60" as="geometry" />
+          <mxGeometry x="441" y="623" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-73" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="86M-mFBg67_h8RozpL6a-64" target="86M-mFBg67_h8RozpL6a-71" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="800" y="828" />
-              <mxPoint x="800" y="1040" />
+              <mxPoint x="770" y="808" />
+              <mxPoint x="770" y="1020" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -135,14 +135,14 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-64" value="Computer sum of computer_cards &amp;lt; sum of user_cards" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="446" y="788" width="180" height="80" as="geometry" />
+          <mxGeometry x="416" y="768" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="D6tPK9A_-HZ4d4eV9TzB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="86M-mFBg67_h8RozpL6a-66" target="86M-mFBg67_h8RozpL6a-63">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="470" y="702" as="targetPoint" />
+            <mxPoint x="440" y="682" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="420" y="751" />
-              <mxPoint x="420" y="673" />
+              <mxPoint x="390" y="731" />
+              <mxPoint x="390" y="653" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -150,24 +150,24 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-66" value="Generate computer 1 cards" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="461" y="731" width="150" height="40" as="geometry" />
+          <mxGeometry x="431" y="711" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FY5R8k2AvwLBuofMj_Go-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="86M-mFBg67_h8RozpL6a-71" target="86M-mFBg67_h8RozpL6a-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="70" y="1040" />
-              <mxPoint x="70" y="60" />
+              <mxPoint x="40" y="1020" />
+              <mxPoint x="40" y="40" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-71" value="User loose" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="231" y="1020" width="150" height="40" as="geometry" />
+          <mxGeometry x="201" y="1000" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-76" value="Computer sum of computer_cards &amp;gt; 21?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="446" y="879" width="180" height="80" as="geometry" />
+          <mxGeometry x="416" y="859" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-80" value="User win" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="231" y="970" width="149" height="40" as="geometry" />
+          <mxGeometry x="201" y="950" width="149" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FY5R8k2AvwLBuofMj_Go-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="915.29" y="360" width="650" height="120" as="geometry" />
