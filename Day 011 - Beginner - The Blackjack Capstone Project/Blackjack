@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-10T07:06:28.332Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="b4A4DNq8LfJeGrEdU2gD" version="14.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-10T07:12:41.972Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="fDWbzhMmkqPNsHzdxbx1" version="14.9.5" type="github">
   <diagram id="QMQ_uDp2ONu1_RBFL6F1" name="Page-1">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -154,7 +154,11 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D6tPK9A_-HZ4d4eV9TzB-23" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="86M-mFBg67_h8RozpL6a-76" target="86M-mFBg67_h8RozpL6a-64">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="740" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="86M-mFBg67_h8RozpL6a-76" value="Computer sum of computer_cards &amp;gt; 21?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="361" y="700" width="180" height="80" as="geometry" />
