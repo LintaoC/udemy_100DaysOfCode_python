@@ -18,5 +18,7 @@ Task I identified:
 --> Wrong, end the game. Print final score
 
 main.py = my solution, as I did it.
+
 main_with_game_function.py = my solution, tring to use a "game()" function, like the method of Angela in the previous lessons.
+
 main_solution.py = Solution from Angela
