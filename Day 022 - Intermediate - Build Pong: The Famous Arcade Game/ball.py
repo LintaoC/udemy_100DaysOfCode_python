@@ -1,19 +1,20 @@
-from turtle import Turtle
+import turtle as t
 
 STARTING_POSITION = (0, 0)
 MOVE_DISTANCE = 10
 
 
-class Ball:
+class Ball(t.Turtle):
     def __init__(self):
-        self.ball = Turtle(shape="circle")
-        self.ball.color("white")
-        self.ball.penup()
-        self.ball.goto(STARTING_POSITION)
+        super().__init__()
+        self.shape("circle")
+        self.color("white")
+        self.penup()
+        self.goto(STARTING_POSITION)
 
-    def ball_move (self):
-        self.ball.setheading(36.87)
-        self.ball.forward(MOVE_DISTANCE)
+    def ball_move(self, heading):
+        self.setheading(heading)
+        self.forward(MOVE_DISTANCE)
 
-
-
+    def ball_reset(self):
+        self.goto(0, 0)
