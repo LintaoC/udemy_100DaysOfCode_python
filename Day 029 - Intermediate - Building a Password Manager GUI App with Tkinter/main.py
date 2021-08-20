@@ -10,7 +10,7 @@ BLUE = "#30475E"
 RED = "#F05454"
 
 
-# ---------------------------- PASSWORD GENERATOR ------------------------------- #
+# ---------------------------- PASSWORD GENERATOR -------------------------------- #
 # Password Generator Project
 
 def generate_password():
