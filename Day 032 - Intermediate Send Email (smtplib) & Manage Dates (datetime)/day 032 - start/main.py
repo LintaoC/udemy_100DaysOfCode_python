@@ -3,7 +3,7 @@ import datetime as dt
 import random
 
 my_email = "pythonbot@gmail.com"
-password = "password
+password = "password"
 
 with open("quotes.txt") as file:
     quote_list = file.readlines()
