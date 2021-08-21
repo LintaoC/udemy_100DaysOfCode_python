@@ -2,8 +2,8 @@ import smtplib
 import datetime as dt
 import random
 
-my_email = "pythonbot@gmail.com"
-password = "password"
+my_email = "xx@gmail.com"
+password = "xx"
 
 with open("quotes.txt") as file:
     quote_list = file.readlines()
@@ -13,7 +13,7 @@ quote_random = quote_list[random.randint(0, 101)]
 datetime_now = dt.datetime.now()
 day_of_week = datetime_now.weekday()
 
-if day_of_week == 4:
+if day_of_week == 5:
     print("email send")
     with smtplib.SMTP("smtp.gmail.com") as connection:
         connection.starttls()

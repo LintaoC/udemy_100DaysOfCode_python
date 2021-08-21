@@ -3,8 +3,8 @@ import datetime as dt
 import random
 import pandas
 
-my_email = "pythonbot@gmail.com"
-password = "password"
+my_email = "xx@gmail.com"
+password = "xxx"
 
 birthday_dataframe = pandas.read_csv("birthdays.csv")
 birthday_dict = birthday_dataframe.to_dict("records")
@@ -27,7 +27,7 @@ def send_email(email, name, letter):
         connection.login(user=my_email, password=password)
         connection.sendmail(
             from_addr=my_email,
-            to_addrs=email,
+            to_addrs=my_email,
             msg=f"Subject:HAPPY BIRTHDAY!\n\n{letter}")
 
 
