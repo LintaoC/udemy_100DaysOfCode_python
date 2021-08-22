@@ -1,8 +1,10 @@
 import tkinter
 from quiz_brain import QuizBrain
+
 THEME_COLOR = "#375362"
 
-class QuizInterface():
+
+class QuizInterface:
     def __init__(self, quizbrain: QuizBrain):
         self.quiz = quizbrain
         self.window = tkinter.Tk()
@@ -24,7 +26,8 @@ class QuizInterface():
         button_true_img = tkinter.PhotoImage(file="images/true.png")
         button_false_img = tkinter.PhotoImage(file="images/false.png")
         self.button_true = tkinter.Button(text="True", image=button_true_img, highlightthickness=0, command=self.right)
-        self.button_false = tkinter.Button(text="False", image=button_false_img, highlightthickness=0, command=self.wrong)
+        self.button_false = tkinter.Button(text="False", image=button_false_img, highlightthickness=0,
+                                           command=self.wrong)
 
         self.label_score.grid(row=0, column=1)
         self.canvas.grid(row=1, column=0, columnspan=2, pady=40)
