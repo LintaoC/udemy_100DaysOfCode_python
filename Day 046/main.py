@@ -96,5 +96,5 @@ for track in song_tracks_list:
     except IndexError:
         print("not found")
 
-# ************ Add the tracks to the playlist *************
+# ************ Add the tracks to the playlist **************
 add_track_to_playlist(playlist_id, song_uri_list)
