@@ -15,7 +15,8 @@ def create_playlist():
     sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=SPOTIFY_ID,
                                                    client_secret=SPOTIFY_SECRET,
                                                    redirect_uri="http://127.0.0.1:9090",
-                                                   scope="playlist-modify-private"))
+                                                   scope="playlist-modify-private",
+                                                   cache_path=".cache"))
 
     sp.user_playlist_create(SPOTIFY_USERNAME, PLAYLIST_NAME, False, False,
                             description="UDEMY Day 046 Spotify Time Machine")
@@ -26,7 +27,8 @@ def check_for_playlist(name):
     sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=SPOTIFY_ID,
                                                    client_secret=SPOTIFY_SECRET,
                                                    redirect_uri="http://127.0.0.1:9090",
-                                                   scope="playlist-read-private"))
+                                                   scope="playlist-read-private",
+                                                   cache_path=".cache"))
 
     my_playlists = sp.user_playlists(SPOTIFY_USERNAME)
 
@@ -43,7 +45,8 @@ def get_song_list_uri(track_name, track_year):
     sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=SPOTIFY_ID,
                                                    client_secret=SPOTIFY_SECRET,
                                                    redirect_uri="http://127.0.0.1:9090",
-                                                   scope="user-read-private"))
+                                                   scope="user-read-private",
+                                                   cache_path=".cache"))
 
     search_result = sp.search(q=f"{track_name} year:{track_year - 1}-{track_year}", type="track")
     return search_result["tracks"]["items"][0]["uri"]
@@ -54,7 +57,8 @@ def add_track_to_playlist(spotify_playlist_id, track_list):
     sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=SPOTIFY_ID,
                                                    client_secret=SPOTIFY_SECRET,
                                                    redirect_uri="http://127.0.0.1:9090",
-                                                   scope="playlist-modify-private"))
+                                                   scope="playlist-modify-private",
+                                                   cache_path=".cache"))
 
     # Replacing the old playlist with the new one
     sp.playlist_replace_items(spotify_playlist_id, track_list)
