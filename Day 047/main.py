@@ -15,7 +15,7 @@ def send_email(item_price, item_name, item_url):
         connection.login(user=my_email, password=password)
         connection.sendmail(
             from_addr=my_email,
-            to_addrs="damien.wytttenbach@rdor.nestle.com",
+            to_addrs="my_email",
             msg=f"Subject:Amzone Price alert!\n\n{item_name} is now ${item_price}\n{item_url}")
 
 
