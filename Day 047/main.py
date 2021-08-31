@@ -30,7 +30,8 @@ r = requests.get(url, headers=header)
 amazon_page = r.text
 
 soup = BeautifulSoup(amazon_page, 'html.parser')
-price = soup.find("span", class_="a-size-base a-color-price")
+price = soup.find("span", class_="a-size-medium a-color-price priceBlockBuyingPriceString")
+print(price)
 price_float = float(price.getText().replace("$", "").replace(",", ""))  # Refining the price, to turn it into an float
 name = soup.find("span", class_="a-size-large product-title-word-break")
 print(name.getText().strip())
