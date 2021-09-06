@@ -72,7 +72,7 @@ for n in range(1, NBR_OF_PAGE_TO_SCRAP):
             headers=HEADER)
 
         r.raise_for_status()
-        zillow_page = r.content
+        zillow_page = r.text
         soup = BeautifulSoup(zillow_page, 'html.parser')
 
         zillow_url_addresses = get_addresses_url(soup)
